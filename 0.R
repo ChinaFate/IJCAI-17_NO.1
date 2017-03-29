@@ -5,7 +5,7 @@ Yhzf = fread("user_pay.txt", col.names = c("yh_id", "sj_id", "sj"))
 Yhzf$rx = as.integer(as.Date(Yhzf$sj, "%Y-%m-%d") - as.Date("2016-11-01", "%Y-%m-%d"))
 Yhzf$yr = (Yhzf$rx + 904) %% 7 + 1
 Sjtz = fread("shop_info.txt", col.names = c("sj_id", "sm", "wzbh", "rjxf", "pf", "pls", "mddj", "yjplmc", "ejflmc", "sjflmc"), encoding = "UTF-8")
-Tq = fread("weather.txt", col.names = c("sm", "rq", "tq"), encoding = "UTF-8")
+Tq = fread("weather.txt", col.names = c("sm", "rq", "tq"))
 Tq$rx = as.integer(as.Date(Tq$rq, "%Y-%m-%d") - as.Date("2016-11-01", "%Y-%m-%d"))
 
 Xl = Yhzf[, .(sjkll = length(yh_id)), .(sj_id, rx, yr)]
