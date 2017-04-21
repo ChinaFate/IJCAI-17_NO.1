@@ -82,7 +82,7 @@
 <a name="B2" />
 [2]&emsp;<strong>α，β，γ，δ，ε</strong>&emsp;事实上这些参数非常不敏感，我们仅在合理的范围内做了大致的调节；<br />
 <a name="B3" />
-[3]&emsp;<strong>曜日</strong>&emsp;星期某；<strong>曜日權重函數</strong>&emsp;代码中的<code>Qdyrqz</code> 即表示这个函數；<br />
+[3]&emsp;<strong>曜日</strong>&emsp;星期某；&emsp;<strong>曜日權重函數</strong>&emsp;代码中的<code>Qdyrqz</code> 即表示这个函數；<br />
 <a name="B4" />
 [4]&emsp;<strong>第二训练时间段</strong>&emsp;代码中的<code>c(-1:-21, -36:-42, -120:-133, -148:-175, -190:-203, -365:-378)</code> 即表示这个时间段；<br />
 <br />
